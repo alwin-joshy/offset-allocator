@@ -6,7 +6,7 @@
 #![no_std]
 
 use core::fmt::{Debug, Display, Formatter, Result as FmtResult};
-
+use core::convert::From;
 use log::debug;
 use nonmax::{NonMaxU16, NonMaxU32};
 
