@@ -3,8 +3,9 @@
 #![doc = include_str!("../README.md")]
 #![deny(unsafe_code)]
 #![warn(missing_docs)]
+#![no_std]
 
-use std::fmt::{Debug, Display, Formatter, Result as FmtResult};
+use core::fmt::{Debug, Display, Formatter, Result as FmtResult};
 
 use log::debug;
 use nonmax::{NonMaxU16, NonMaxU32};
