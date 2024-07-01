@@ -10,7 +10,8 @@ use core::convert::From;
 use log::debug;
 use nonmax::{NonMaxU16, NonMaxU32};
 extern crate alloc;
-use alloc::vec::{Vec};
+use alloc::vec;
+use alloc::vec::Vec;
 
 mod small_float;
 
